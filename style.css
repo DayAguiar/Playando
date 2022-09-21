@@ -1,0 +1,120 @@
+h1 {
+  font-size: 38px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 300;
+}
+
+.input-link {
+  border-radius: 20px;
+  display: flex;
+  margin: 6px 10px;
+  border: 2px solid silver;
+  width: 80%;
+  padding: 3px 10px;
+}
+
+.input-chave {
+  border-radius: 20px;
+  display: flex;
+  margin: 6px 10px;
+  border: 2px solid silver;
+  width: 80%;
+  padding: 3px 10px;
+}
+
+input::placeholder {
+  color: silver;
+}
+
+.adicionar {
+  font-size: 14px;
+	width:15%;
+	background: linear-gradient(#FF6B00, #D2691E);
+	color: white;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+  margin: 6px 10px;
+}
+
+.filtrar {
+  font-size: 14px;
+	width:15%;
+	background: linear-gradient(#FEFEFE, #888888);
+	color: black;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+  margin: 6px 10px;
+}
+
+.inputBox {
+  display: flex;
+}
+
+hr {
+  background-color: #D2691E;
+  height: 2px;
+}
+
+.button {
+	background: #D2691E;
+	color: white;
+	border: none;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.play {
+  cursor: pointer;
+  border: none;
+  background: linear-gradient(#FF6B00, #D2691E);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.close {
+  cursor: pointer;
+  border: none;
+  background: linear-gradient(#FEFEFE, #888888);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.material-symbols-outlined.md-36 {
+  font-size: 36px;
+  color: #FEFEFE;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.material-symbols-outlined.md-30 {
+  font-size: 30px;
+  color: #FEFEFE;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 100,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.material-symbols-outlined.md-28 {
+  font-size: 28px;
+  color: black;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 700,
+  'GRAD' 0,
+  'opsz' 48
+}
