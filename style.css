@@ -5,7 +5,7 @@ body {
 
 h1 {
   font-size: 38px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-weight: 300;
 }
 
@@ -33,23 +33,28 @@ input::placeholder {
 
 .adicionar {
   font-size: 14px;
-	width:15%;
-	background: linear-gradient( silver, #11114E);
-	color: white;
-	border: none;
-	border-radius: 20px;
-	cursor: pointer;
+  width: 15%;
+  background: linear-gradient(silver, #11114e);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
   margin: 6px 10px;
+}
+
+.adicionar:disabled {
+  color: black;
+  background: linear-gradient(#fefefe, #888888);
 }
 
 .filtrar {
   font-size: 14px;
-	width:15%;
-	background: linear-gradient(#FEFEFE, #888888);
-	color: black;
-	border: none;
-	border-radius: 20px;
-	cursor: pointer;
+  width: 15%;
+  background: linear-gradient(#fefefe, #888888);
+  color: black;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
   margin: 6px 10px;
 }
 
@@ -58,7 +63,7 @@ input::placeholder {
 }
 
 hr {
-  background-color: #11114E;
+  background-color: #11114e;
   height: 2px;
 }
 
@@ -77,12 +82,11 @@ dialog {
   padding: 1rem;
   display: flex;
   flex-direction: column;
-
 }
 
 #titleModal {
   font-size: 24px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-weight: 300;
   color: #c1c1c3;
   width: 100vh;
@@ -112,7 +116,7 @@ img {
   border-radius: 2px;
 }
 
-#informationWrapper{
+#informationWrapper {
   display: flex;
   flex-direction: column;
 }
@@ -125,7 +129,7 @@ img {
   width: 100%;
 }
 
-#videoName{
+#videoName {
   font-size: 24px;
   text-decoration: none;
 }
@@ -135,7 +139,7 @@ img {
 }
 
 #buttonModal {
-  background: linear-gradient( silver, #11114E);
+  background: linear-gradient(silver, #11114e);
   border-radius: 16px;
   border: none;
   padding: 0 32px;
@@ -146,5 +150,5 @@ img {
 #cardContainer {
   display: flex;
   flex-direction: column;
-  gap: 8px
+  gap: 8px;
 }

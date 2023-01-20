@@ -27,10 +27,11 @@
         type="text"
         id="linktitulo"
         class="input-link"
+        value=""
         required
         placeholder="link ou título do vídeo"
       />
-      <!--TODO: Desativar botão enquanto input estiver vazio.-->
+
       <input
         type="submit"
         id="button-add"
@@ -43,56 +44,7 @@
       <div id="dialogcontainer">
         <div id="titleModal">Resultados</div>
         <span id="divider"></span>
-        <!--TODO: Adicionar resultados de forma dinamica.-->
-        <div id="cardContainer">
-          <div id="card">
-            <img src="https://source.unsplash.com/random?id=121" alt="" />
-            <div id="cardContent">
-              <div id="informationWrapper">
-                <a
-                  id="videoName"
-                  href="https://www.youtube.com/watch?v=WucoIk7CkjA"
-                  >Título do video</a
-                >
-                <span id="postedBy">Quem Postou</span>
-                <span id="date">08 de outubro de 2022</span>
-              </div>
-              <button id="buttonModal">Adicionar</button>
-            </div>
-          </div>
-
-          <div id="card">
-            <img src="https://source.unsplash.com/random?id=121" alt="" />
-            <div id="cardContent">
-              <div id="informationWrapper">
-                <a
-                  id="videoName"
-                  href="https://www.youtube.com/watch?v=WucoIk7CkjA"
-                  >Título do video</a
-                >
-                <span id="postedBy">Quem Postou</span>
-                <span id="date">08 de outubro de 2022</span>
-              </div>
-              <button id="buttonModal">Adicionar</button>
-            </div>
-          </div>
-
-          <div id="card">
-            <img src="https://source.unsplash.com/random?id=121" alt="" />
-            <div id="cardContent">
-              <div id="informationWrapper">
-                <a
-                  id="videoName"
-                  href="https://www.youtube.com/watch?v=WucoIk7CkjA"
-                  >Título do video</a
-                >
-                <span id="postedBy">Quem Postou</span>
-                <span id="date">08 de outubro de 2022</span>
-              </div>
-              <button id="buttonModal">Adicionar</button>
-            </div>
-          </div>
-        </div>
+        <div id="cardContainer"></div>
       </div>
     </dialog>
     <hr />
